@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lockerActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locker"
+        android:text="LOCKER"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locker"
+        android:id="@+id/photo"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/download"
+        android:layout_centerHorizontal="true"></ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="KEY"
+        android:id="@+id/key"
+        android:layout_below="@+id/photo"
+        android:layout_marginTop="60dp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="VALUE"
+        android:id="@+id/value"
+        android:layout_below="@+id/key"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_below="@id/value"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/save"
+        android:layout_marginTop="20dp"></Button>
+</RelativeLayout>

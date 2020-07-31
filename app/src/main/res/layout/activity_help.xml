@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpActivity"
+    android:background="@drawable/ic_launcher_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Help"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/help"
+        android:textColor="#000000"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/help"
+        android:layout_marginTop="20dp"
+        android:id="@+id/a"
+        android:text="------ >> Please Ensure that You have allowed all the Permission."
+        android:textStyle="italic"
+        android:textColor="#000000"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="20dp"
+        android:id="@+id/b"
+        android:text="------ >> Query responce is active only upon finding the Query Solution"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/b"
+        android:layout_marginTop="20dp"
+        android:id="@+id/c"
+        android:text="------ >> Allow your Contact details with your Permission"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/c"
+        android:layout_marginTop="20dp"
+        android:id="@+id/d"
+        android:text="------ >> Normal mode enable message code -- #NORMAL_MODE#"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/d"
+        android:layout_marginTop="20dp"
+        android:id="@+id/e"
+        android:text="------ >> USE '#' simbol before and after the query sent eg. #Prerit Jio#"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:layout_below="@id/e"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"></TextView>
+</RelativeLayout>
